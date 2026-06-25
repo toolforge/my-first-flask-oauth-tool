@@ -20,7 +20,7 @@ type: python3.7
 canonical: true
 EOF
 $ mkdir -p $HOME/www/python
-$ git clone https://phabricator.wikimedia.org/source/tool-my-first-flask-oauth-tool.git \
+$ git clone https://gitlab.wikimedia.org/toolforge-repos/my-first-flask-oauth-tool.git \
   $HOME/www/python/src
 $ touch $HOME/www/python/src/config.yaml
 $ chmod u=rw,go= $HOME/www/python/src/config.yaml
